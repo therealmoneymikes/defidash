@@ -6,6 +6,12 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "../core/BridgeStorage.sol";
 
+/// @title Token Locker Contract
+/// @author Michael Roberts
+/// @notice Handles Token Locking 
+/// @dev Handles the Logic For Token, inherits Pausable and Reentrancy Guard from OpenZeppelin Contracts
+
+
 contract TokenLocker is Pausable, ReentrancyGuard {
     using SafeERC20 for IERC20;
 

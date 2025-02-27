@@ -8,6 +8,7 @@ contract BridgeStorage is AccessControl, Pausable {
     /**
      * @notice Bridge Storage Contract stores info of bridge operations
      * @dev 
+     * @author Michael Roberts
      */
     enum DepositStatus { Pending, Withdrawn, Cancelled }
 
