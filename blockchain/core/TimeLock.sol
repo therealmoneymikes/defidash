@@ -4,6 +4,12 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
 
+/**
+ * @title Time Lock Contract
+ * @author Michael Roberts
+ * @dev Time Lock Contract Inherits from Access Control from 
+ * 
+ */
 contract TimeLock is AccessControl {
     using Address for address;
 

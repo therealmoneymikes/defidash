@@ -10,7 +10,7 @@ import "./MultisigControl.sol";
 /**
  * @title Token Burning Contract
  * @author Michael Roberts
- * @notice 
+ * 
  */
 interface IBurnable {
     function burn(uint256 amount) external;

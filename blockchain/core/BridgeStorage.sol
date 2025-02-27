@@ -3,7 +3,11 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
-
+/**
+ * @title Bridge Storage
+ * @author Michael Roberts 
+ * @notice 
+ */
 contract BridgeStorage is AccessControl, Pausable {
     /**
      * @notice Bridge Storage Contract stores info of bridge operations

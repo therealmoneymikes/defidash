@@ -4,6 +4,7 @@ pragma solidity ^0.8.20;
 /**
  * @title ITokenMinter
  * @dev Interface for minting and burning tokens in a cross-chain bridge system
+ * @author Michael Roberts
  */
 interface ITokenMinter {
     /**

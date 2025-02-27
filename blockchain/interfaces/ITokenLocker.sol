@@ -4,6 +4,7 @@ pragma solidity ^0.8.20;
 /**
  * @title ITokenLocker
  * @dev Interface for locking and unlocking tokens with time restrictions
+ * @author Michael Roberts
  */
 interface ITokenLocker {
     /**
