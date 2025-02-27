@@ -126,5 +126,6 @@ dist
 ehthumbs.db
 Thumbs.db
 
+main.txt
 # Solidity
 # Ignore artifacts and cache from Truffle/Hard

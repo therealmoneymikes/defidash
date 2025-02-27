@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "./ChainlinkConsumer.sol";
-import "./UserRoles.sol";
+import "../access/UserRoles.sol";
 
 /**
  * @title PriceOracle
@@ -191,3 +191,4 @@ contract PriceOracle {
                block.timestamp <= cachedData.timestamp + heartbeat;
     }
 }
+
